@@ -1,14 +1,14 @@
-package kiosk;
+package com.example.kiosk;
 
 import java.util.List;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        //인스턴스화
         Kiosk kiosk = new Kiosk();
-        kiosk.displayMenu();
+
         kiosk.start();
+
     }
     public static int calculateTotal(List<MenuItem> cart) {
         int total = 0;
