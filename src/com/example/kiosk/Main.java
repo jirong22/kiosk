@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         //인스턴스화
         Kiosk kiosk = new Kiosk();
-
         kiosk.start();
 
     }

@@ -30,7 +30,7 @@ public class Menu {
 
     //메뉴출력
     public void displayMenu() {
-        System.out.println("\n 🍜매-콤 속풀이 해장 목록 🍻");
+        System.out.println("\n 🍜매-콤 속풀이 해장 목록  🌶️");
         for (int i = 0; i < menuItems.size(); i++) {
             System.out.println((i + 1) + ". " +
                     menuItems.get(i).name + " | " +
