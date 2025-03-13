@@ -5,7 +5,7 @@ import java.util.List;
 
 import static com.example.kiosk.Main.calculateTotal;
 
-
+//카테고리MenuItem 음료 음식관리
 public class Menu {
 
     private String categoryName;
@@ -14,6 +14,7 @@ public class Menu {
 
     //리스트 카테고리 이름 저장
     public Menu(String categoryName, List<MenuItem> menuItems) {
+
         this.categoryName = categoryName;
         this.menuItems = menuItems;
     }
@@ -37,7 +38,7 @@ public class Menu {
                     menuItems.get(i).price + "원 | " +
                     menuItems.get(i).description);
         }
-        System.out.println("0. 주문 완료!");
+        System.out.println("0 입력 시 이전 메뉴");
     }
 }
 

@@ -1,6 +1,6 @@
 package com.example.kiosk;
 
-
+//이름, 가격, 설명 개별항목
 public class MenuItem {
     //속성
     String name;
