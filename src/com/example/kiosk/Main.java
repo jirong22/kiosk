@@ -5,22 +5,15 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-
         //메뉴불러오기
         List<Menu> menus = buildMenu();
         //kiosk 객체생성  menus 전달
         Kiosk kiosk = new Kiosk(menus);
-        //kiosk 실행
+        //키오스크 실행
         kiosk.start();
 
     }
-    public static int calculateTotal(List<MenuItem> cart) {
-        int total = 0;
-        for (MenuItem item : cart) {
-            total += item.price;
-        }
-        return total;
-    }
+
     // 메서드 선언 (카테고리 객체를 저장할 저장할 리스트)
     public static List<Menu> buildMenu() {
         // 새로운 List를 생성 menus에 저장
