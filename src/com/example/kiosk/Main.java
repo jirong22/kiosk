@@ -8,8 +8,9 @@ public class Main {
 
         //메뉴불러오기
         List<Menu> menus = buildMenu();
-
+        //kiosk 객체생성  menus 전달
         Kiosk kiosk = new Kiosk(menus);
+        //kiosk 실행
         kiosk.start();
 
     }
@@ -20,9 +21,9 @@ public class Main {
         }
         return total;
     }
-    // 메서드 선언
+    // 메서드 선언 (카테고리 객체를 저장할 저장할 리스트)
     public static List<Menu> buildMenu() {
-        //리턴해주기
+        // 새로운 List를 생성 menus에 저장
         List<Menu> menus = new ArrayList<>();
 
         List<MenuItem> haejangItems = new ArrayList<>();
