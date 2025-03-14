@@ -53,10 +53,10 @@ class Kiosk {
         int con = scanner.nextInt();
 
         if (con == 1) {
-            System.out.println(" 주문이 완료되었습니다!");
+            System.out.println(" 주문이 완료되었습니다!🥳");
             cart.clear();
         } else {
-            System.out.println("주문이 취소되었습니다!");
+            System.out.println("주문이 취소되었습니다!😢");
         }
     }
         // 시작
