@@ -96,7 +96,7 @@ class Kiosk {
                         System.out.println("이전 메뉴로 돌아갑니다!");
                         continue;
                     }
-
+                    // 장바구니추가 확인
                     if (menuChoice > 0 && menuChoice <= selectedMenu.getMenuItems().size()) {
                         MenuItem selectedItem = selectedMenu.getMenuItems().get(menuChoice - 1);
                         System.out.println("\n" + selectedItem.getName() + " | " + selectedItem.getPrice() + "원 | " + selectedItem.getDescription());
